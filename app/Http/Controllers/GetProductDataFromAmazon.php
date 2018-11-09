@@ -114,5 +114,4 @@ class GetProductDataFromAmazon extends Controller
         file_put_contents('product.json',json_encode($param,JSON_PRETTY_PRINT));
     }
 
-
 }
