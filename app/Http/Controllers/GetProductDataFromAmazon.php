@@ -66,7 +66,6 @@ class GetProductDataFromAmazon extends Controller
             preg_match_all('/id="priceblock_ourprice(.*?)a-color-price">(.*?)<\/span>/s', $this->pageData, $price);
             $price = $price[2][0];
         }
-
         return $price;
     }
 
